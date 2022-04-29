@@ -1,0 +1,50 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    height: 35px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+padding: 0px 25px;
+margin-right: 20px;
+}
+
+.sidebarOptions svg{
+    color: rgb(94,94,94);
+    font-size: 20px;
+    width: 20px;
+}
+
+.sidebarOptions h4{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.sidebarOptions p{
+    opacity: 0;
+    font-size: 12px;
+    color: rgb(94,94,94);
+}
+
+.sidebarOptions:hover,
+.sidebarOptions:hover > p,
+.sidebarOptions:hover > h4,
+.sidebarOptions:hover > svg{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #d93025;
+font-weight: bold !important;
+}
+
+.sidebaroptions--active{
+background-color: #fce8e6;
+}
+
+.sidebaroptions--active h4,
+.sidebaroptions--active p,
+.sidebaroptions--active svg{
+color: #d93025;
+font-weight: bold;
+opacity: 1;
+    }

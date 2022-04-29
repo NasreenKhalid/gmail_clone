@@ -1,0 +1,8 @@
+We will be using following in this project:
+Material UI 
+Redux
+Firebase
+React Router DOM
+Authentication -- Firebase
+Mailtrap.io -- Sending emails //https://mailtrap.io/inboxes/1152267/messages
+
